@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-07-20T20:53:01.155426+00:00",
+  "seed": 20260721,
+  "evidence_scope": "controlled synthetic V&V benchmark",
+  "production_claim": false,
+  "products": [
+    {
+      "path": "reference_metrics.json",
+      "size_bytes": 3807,
+      "sha256": "c0511705992b5b35a8bc68ac4a611e30ba4f39de89a460fbd7870d93421ac815"
+    },
+    {
+      "path": "astrometry_recovery.csv",
+      "size_bytes": 463,
+      "sha256": "7d74c28a9e4fe394473119b142181720b9944b74c16a7a2749e7e945d002c32f"
+    },
+    {
+      "path": "bolide_candidate_ranking.csv",
+      "size_bytes": 534,
+      "sha256": "26900c406b2146f5ae8e73ca6645d8fb18e380a6a72aa9457643770b094562d7"
+    },
+    {
+      "path": "space_mission_pipeline_vv_summary.png",
+      "size_bytes": 318150,
+      "sha256": "2d0b21399f36c0ecd16b12b2a149a3e114bc8061027adfd57c8ffe813014b145"
+    }
+  ]
+}

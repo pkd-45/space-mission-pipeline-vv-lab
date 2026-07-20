@@ -1,0 +1,159 @@
+{
+  "scope": "controlled synthetic software-validation benchmark",
+  "astrometry": {
+    "example_injected_amplitude_uas": 1.0,
+    "example_recovered_amplitude_uas": 0.9711966190180524,
+    "example_amplitude_sigma_uas": 0.1284121295564537,
+    "example_delta_bic": 46.820742153124854,
+    "example_residual_rms_uas": 1.1903969473209364,
+    "recovery": {
+      "amplitude_uas": [
+        0.0,
+        0.3,
+        0.5,
+        0.7,
+        0.9,
+        1.2,
+        1.6
+      ],
+      "recovery_fraction": [
+        0.0,
+        0.008333333333333333,
+        0.2916666666666667,
+        0.825,
+        0.9916666666666667,
+        1.0,
+        1.0
+      ],
+      "median_amplitude_bias_uas": [
+        0.15200114332064643,
+        0.020699120881226857,
+        -0.0072049545946020754,
+        0.021817380180757573,
+        0.01383138029312514,
+        -0.003485563412992554,
+        0.0229138431593926
+      ],
+      "median_delta_bic": [
+        -9.079987752194697,
+        -4.491290873337661,
+        4.024446705638653,
+        19.445416076116075,
+        38.26916084813455,
+        73.68029377335498,
+        140.8260292807668
+      ]
+    }
+  },
+  "bolide": {
+    "balanced_accuracy": 0.8629080563042827,
+    "bolide_precision": 0.6666666666666666,
+    "bolide_recall": 0.75,
+    "bolide_f1": 0.7058823529411765,
+    "bolide_brier": 0.03755103475971872,
+    "bolide_review_threshold": 0.65,
+    "confusion_matrix": [
+      [
+        99,
+        3,
+        4
+      ],
+      [
+        0,
+        6,
+        2
+      ],
+      [
+        2,
+        0,
+        19
+      ]
+    ],
+    "n_train": 630,
+    "n_validation": 135,
+    "n_test": 135,
+    "group_overlap_train_test": 0,
+    "top_candidates": [
+      {
+        "test_row": 255,
+        "truth": "bolide",
+        "predicted": "bolide",
+        "bolide_probability": 0.9736820230056474
+      },
+      {
+        "test_row": 724,
+        "truth": "lightning",
+        "predicted": "bolide",
+        "bolide_probability": 0.9541308114366075
+      },
+      {
+        "test_row": 378,
+        "truth": "lightning",
+        "predicted": "bolide",
+        "bolide_probability": 0.9421333120219451
+      },
+      {
+        "test_row": 752,
+        "truth": "bolide",
+        "predicted": "bolide",
+        "bolide_probability": 0.9377630544931355
+      },
+      {
+        "test_row": 155,
+        "truth": "lightning",
+        "predicted": "bolide",
+        "bolide_probability": 0.8885373301404521
+      },
+      {
+        "test_row": 122,
+        "truth": "bolide",
+        "predicted": "bolide",
+        "bolide_probability": 0.8602371288945638
+      },
+      {
+        "test_row": 276,
+        "truth": "bolide",
+        "predicted": "bolide",
+        "bolide_probability": 0.8553987454793311
+      },
+      {
+        "test_row": 555,
+        "truth": "bolide",
+        "predicted": "bolide",
+        "bolide_probability": 0.8138029695320383
+      },
+      {
+        "test_row": 120,
+        "truth": "bolide",
+        "predicted": "bolide",
+        "bolide_probability": 0.6978595188528206
+      },
+      {
+        "test_row": 49,
+        "truth": "lightning",
+        "predicted": "lightning",
+        "bolide_probability": 0.6037474309617072
+      },
+      {
+        "test_row": 592,
+        "truth": "lightning",
+        "predicted": "lightning",
+        "bolide_probability": 0.49296109903116786
+      },
+      {
+        "test_row": 258,
+        "truth": "bolide",
+        "predicted": "glint_or_artifact",
+        "bolide_probability": 0.45249578378837274
+      }
+    ]
+  },
+  "v_and_v_gates": {
+    "astrometry_zero_signal_false_detection_le_0_10": true,
+    "astrometry_high_signal_recovery_ge_0_85": true,
+    "bolide_balanced_accuracy_ge_0_75": true,
+    "bolide_precision_ge_0_65": true,
+    "no_group_leakage": true
+  },
+  "v_and_v_pass": true
+}

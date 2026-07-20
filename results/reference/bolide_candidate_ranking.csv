@@ -1,0 +1,13 @@
+test_row,truth,predicted,bolide_probability
+255,bolide,bolide,0.9736820230056474
+724,lightning,bolide,0.9541308114366075
+378,lightning,bolide,0.9421333120219451
+752,bolide,bolide,0.9377630544931355
+155,lightning,bolide,0.8885373301404521
+122,bolide,bolide,0.8602371288945638
+276,bolide,bolide,0.8553987454793311
+555,bolide,bolide,0.8138029695320383
+120,bolide,bolide,0.6978595188528206
+49,lightning,lightning,0.6037474309617072
+592,lightning,lightning,0.49296109903116786
+258,bolide,glint_or_artifact,0.45249578378837274

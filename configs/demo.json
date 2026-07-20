@@ -1,0 +1,6 @@
+{
+  "seed": 20260721,
+  "output_dir": "results/reference",
+  "n_astrometry_trials": 120,
+  "n_bolide_groups": 900
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as software."
+title: "space-mission-pipeline-vv-lab"
+version: 0.1.0
+authors:
+  - family-names: Das
+    given-names: Pratyush Kumar
+    orcid: "https://orcid.org/0000-0002-4326-8598"
+date-released: 2026-07-21
+license: MIT
+repository-code: "https://github.com/pkd-45/space-mission-pipeline-vv-lab"
