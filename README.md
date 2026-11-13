@@ -4,7 +4,7 @@
 
 **A compact synthetic verification-and-validation benchmark for precision astrometry and rare-event satellite pipelines.**
 
-This project was built as inspectable preparation for the SETI Institute Pipeline Scientist role supporting TOLIMAN and GOES-GLM bolide detection. It demonstrates two concurrent science tracks under one reproducible release contract:
+This independent benchmark explores two distinct scientific pipeline problems through a common, reproducible verification-and-validation workflow:
 
 1. a differential-astrometry injection-recovery workflow with nuisance regression and model comparison;
 2. an imbalanced light-curve classification workflow with group-safe validation, calibration and human-review ranking.
@@ -13,7 +13,7 @@ It is **not TOLIMAN mission software**, **not a TOLIMAN optical simulator**, doe
 
 ## Why this project
 
-The role is not only an ML-model position. It combines algorithm development, deployed pipeline support, formal V&V, post-run science analysis, instrument/data-quality assessment, documentation and the ability to move between two distinct mission priorities. This repository makes that workflow visible in one small release.
+Both precision astrometry and rare-event time-series classification depend on explicit instrument/nuisance models, science-aware validation, documented quality thresholds, and traceable results. This repository implements those practices across two controlled synthetic examples.
 
 ## End-to-end structure
 
@@ -92,7 +92,7 @@ See [`docs/ROLE_MAPPING.md`](docs/ROLE_MAPPING.md) and [`docs/VALIDATION.md`](do
 - [`dsa-hi-survey-ops`](https://github.com/pkd-45/dsa-hi-survey-ops): spectral-cube processing, RFI-aware choices, source finding and injection-recovery QA.
 - [`radio-signal-intelligence-lab`](https://github.com/pkd-45/radio-signal-intelligence-lab): compact multimodal classification and transparent candidate triage.
 
-Together, the portfolio covers numerical modelling, image/time-series ML, mission-style V&V, reliable execution and scientific product QA.
+Together, these projects explore numerical modelling, image/time-series ML, mission-style V&V, reliable execution and scientific product QA.
 
 ## Author
 
